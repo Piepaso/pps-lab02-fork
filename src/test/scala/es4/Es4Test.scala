@@ -1,4 +1,4 @@
-package Es4
+package es4
 
 import it.unibo.pps.u02.es4.*
 import org.junit.*

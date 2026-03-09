@@ -1,4 +1,4 @@
-package Es5
+package es5
 
 import it.unibo.pps.u02.es5.*
 import org.junit.*

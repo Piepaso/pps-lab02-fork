@@ -1,4 +1,4 @@
-package Es3
+package es3
 
 import it.unibo.pps.u02.es3.*
 import org.junit.*
