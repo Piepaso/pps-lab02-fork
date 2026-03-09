@@ -1,6 +1,6 @@
-package it.unibo.pps.u02
+package it.unibo.pps.u02.warmup
 
-object AnonymousFunctions extends App:
+object  AnonymousFunctions extends App:
 
   // Defining and assigning an Int
   val i: Int = 5

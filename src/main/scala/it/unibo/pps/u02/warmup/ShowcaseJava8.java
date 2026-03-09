@@ -1,4 +1,4 @@
-package it.unibo.pps.u02;
+package it.unibo.pps.u02.warmup;
 
 import java.util.*;
 import java.util.stream.IntStream;

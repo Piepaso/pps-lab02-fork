@@ -1,4 +1,4 @@
-package it.unibo.pps.u02
+package it.unibo.pps.u02.warmup
 
 object AlgebraicDataTypes extends App:
   // introducing a new sum type, defined by enumerating various cases
