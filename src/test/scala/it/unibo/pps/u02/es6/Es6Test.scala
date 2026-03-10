@@ -1,4 +1,4 @@
-package es6
+package it.unibo.pps.u02.es6
 
 import it.unibo.pps.u02.es6.*
 import org.junit.*

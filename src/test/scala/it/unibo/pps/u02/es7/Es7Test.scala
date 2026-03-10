@@ -1,4 +1,4 @@
-package es7
+package it.unibo.pps.u02.es7
 
 import it.unibo.pps.u02.es7.*
 import org.junit.*

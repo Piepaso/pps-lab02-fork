@@ -1,5 +1,7 @@
 package task5
 
+import task5.Optionals.OptionalInt.{Empty, Just}
+
 // overall module
 object Optionals:
 
@@ -18,6 +20,14 @@ object Optionals:
     def orElse(opt: OptionalInt, orElse: Int): Int = opt match
       case Just(a) => a
       case _       => orElse
+
+  def mapInt(op: OptionalInt)(f: Int => Int): OptionalInt = (op, f) match
+    case (Just(a), f) => Just(f(a))
+    case _ => Empty()
+
+  def filter(op: OptionalInt)(p: Int => Boolean): OptionalInt = (op, p) match
+    case (Just(a), p) if p(a) => Just(a)
+    case _ => Empty()
 
 @main def tryOptionals(): Unit =
   import Optionals.* // to work with Optionals (to see OptionalInt type)
